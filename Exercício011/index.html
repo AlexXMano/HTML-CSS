@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em diferentes dispositivos o simplesmente aumente e diminua o tamanho do seu naveador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto_m.png" type="image/png">
+        <img src="Imagens/foto_g.png" alt="Imagem Flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios no HTML5.</p>
+    <!-- Formatos de Áudios conpatíveis -->
+    <!-- MP3, WAV, OGG -->
+    <audio src="Media/good for the ghost - Alge.mp3" controls></audio><br>
+    <!-- Outra forma para reproduzir áudio mais avançado -->
+    <audio preload="metadata" controls>
+        <source src="Media/Windy Road Back To You - The Grey Room _ Golden Palms.mp3" type="audio/mpeg">
+        <source src="Media/Windy Road Back To You - The Grey Room _ Golden Palms.mp3" type="audio/ogg">
+        <source src="Media/Windy Road Back To You - The Grey Room _ Golden Palms.mp3" type="audio/wav">
+        <p>Infelizmente nâo foi possível reproduzir esse áudio.</p>
+        <p><a href="Media/Windy Road Back To You - The Grey Room _ Golden Palms.mp3">Clique aqui para baixar o seu áudio</a>.</p>
+    </audio>
+</body>
+</html>

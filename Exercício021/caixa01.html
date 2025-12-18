@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {/* Box-Level */
+            /* Para transformar um box-level em inline coloque -> display: inline; */
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: black;*/
+
+            border: 10px solid black;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+
+            padding: 10px 10px 10px 10px;/* Se forem todas iguais basta colocar só uma vez 10px 
+            Dois valores são os lados 1= top bottom, 2= right left
+            */
+
+            /*margin-top: 2px;
+            margin-right: 2px;
+            margin-bottom: 2px;
+            margin-left: 20px;*/
+
+            /*margin: 20px 20px 20px 40px;*/
+            margin: 20px auto 20px auto;
+            
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blueviolet;*/
+
+            outline: 5px dashed blueviolet;
+        }
+
+        a {/* Inline-Level */
+            /* display: block */
+            
+            height: 300px;
+            width: 300px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: red;
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+        }
+    </style>
+    <title>Caixas</title>
+</head>
+<body>
+    <h1>Exemplo de caixa Box Level</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi sed voluptatem, accusamus excepturi, <a href="#">laboriosam at</a>, corporis dolor debitis unde sunt a expedita recusandae porro laudantium architecto impedit. Provident, iste.</p>
+
+</body>
+</html>

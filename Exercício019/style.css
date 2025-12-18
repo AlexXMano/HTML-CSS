@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(106, 235, 112, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(29, 143, 33);
+}
+    /*
+        Em HTML o id vira # em CSS
+        Em HTML o class vira . em CSS
+    */
+#principal {
+    color: rgb(65, 199, 83);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+.basico {
+    color: rgb(97, 209, 97);
+}
+
+.medio {
+    color: rgba(193, 206, 76, 0.904);
+}
+
+.avancado {
+    color: rgb(61, 122, 201);
+}
+
+h2 {
+    color: rgb(45, 117, 49);
+}
+
+p {
+    text-indent: 20px;
+}
