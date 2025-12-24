@@ -8,6 +8,11 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        h1 {
+            padding: 5px;
+            margin-left: 80px;
+        }
+
         table {
             width: 570px;
             border-collapse: collapse;
@@ -16,6 +21,12 @@
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 5px;
         }
 
         thead {
@@ -38,6 +49,7 @@
     <!-- 
     Anatomia de tabelas grandes
     TABLE
+        CAPTION
         THEAD
             TR, TD TH
         TBODY
@@ -46,12 +58,13 @@
             TR, TD, TH
      -->
     <table>
+        <caption>Populaçâo das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Posiçâo</th>
-                <th>Unidade federativa</th>
-                <th>Populaçâo 2025</th>
-                <th>País comparável (habitantes)</th>
+                <th scope="col" style="width: 60px;">Posiçâo</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">Populaçâo 2025</th>
+                <th scope="col">País comparável (habitantes)</th>
             </tr>
         </thead>
         <tbody>
@@ -220,7 +233,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>213 421 037</strong></td>
             </tr>
         </tfoot>
