@@ -16,6 +16,7 @@
         table {
             width: 570px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -32,6 +33,13 @@
         thead {
             background-color: cornflowerblue;
             color: white;
+        }
+
+        /* Comando para fixar o cabeçalho. */
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
         }
 
         /* Efeito Zebrado na tabela (2n, odd = Par, even = Impar)*/
